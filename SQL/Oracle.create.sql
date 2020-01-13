@@ -28,6 +28,17 @@ CREATE TABLE "Author"
 ) ;
 
 
+CREATE TABLE "NewClass1"
+(
+
+	"primaryKey" RAW(16) NOT NULL,
+
+	"attr1" NUMBER(10) NULL,
+
+	 PRIMARY KEY ("primaryKey")
+) ;
+
+
 CREATE TABLE "STORMNETLOCKDATA"
 (
 

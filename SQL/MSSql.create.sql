@@ -24,6 +24,15 @@ CREATE TABLE [Author] (
 	 PRIMARY KEY ([primaryKey]))
 
 
+CREATE TABLE [NewClass1] (
+
+	 [primaryKey] UNIQUEIDENTIFIER  NOT NULL,
+
+	 [attr1] INT  NULL,
+
+	 PRIMARY KEY ([primaryKey]))
+
+
 CREATE TABLE [STORMNETLOCKDATA] (
 
 	 [LockKey] VARCHAR(300)  NOT NULL,
